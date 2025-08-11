@@ -1,0 +1,13 @@
+{
+  "name": "palindrome-project",
+  "version": "1.0.0",
+  "description": "A simple project to check for palindromes using a JavaScript class.",
+  "main": "src/Palindrome.js",
+  "scripts": {
+    "test": "node test/PalindromeTest.spec.js",
+    "install": "echo 'No dependencies to install'"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
