@@ -9,7 +9,7 @@ function assert(condition, message) {
     }
 }
 
-// Test runner
+// Test runner1
 function runTest(testName, testFn) {
     try {
         testFn();
