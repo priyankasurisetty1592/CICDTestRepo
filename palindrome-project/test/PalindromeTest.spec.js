@@ -19,7 +19,7 @@ function runTest(testName, testFn) {
     }
 }
 
-// Individual test cases
+// Individual test cases asdfs
 runTest('should return true for racecar', () => {
     assert(palindrome.isPalindrome('racecar') === true, 'racecar should be a palindrome');
 });
