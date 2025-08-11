@@ -39,7 +39,7 @@ runTest('should return false for hello', () => {
 runTest('should return true for empty string', () => {
     const result = palindrome.isPalindrome('');
     console.log(`Empty string returns: ${result}`);
-    assert(result === false, `empty string should be a palindrome, but got ${result}`);
+    assert(result === false, `empty string should be a palindrome`);
 });
 
 runTest('should return false for null', () => {
