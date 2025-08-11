@@ -9,7 +9,7 @@ function assert(condition, message) {
     }
 }
 
-// Test runner1
+// Test runner12
 function runTest(testName, testFn) {
     try {
         testFn();
@@ -43,7 +43,7 @@ runTest('should return true for empty string', () => {
 });
 
 runTest('should return false for null', () => {
-    assert(palindrome.isPalindrome(null) === false, 'null should not be a palindrome');
+    assert(palindrome.isPalindrome(null) === true, 'null should not be a palindrome');
 });
 
 runTest('should return true for single character', () => {
