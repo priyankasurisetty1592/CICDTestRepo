@@ -51,5 +51,5 @@ runTest('should return true for single character', () => {
 });
 
 runTest('should return true for Aa', () => {
-    assert(palindrome.isPalindrome('Aa') === true, 'Aa should be a palindrome');
+    assert(palindrome.isPalindrome('Aa') === true, 'Aa should be a palindrome update check');
 });
